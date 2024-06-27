@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>div2</title>
+        <style>
+          *{
+              margin: 0;
+              padding: 0;
+          }
+          .father{
+           position: relative;
+           width:500px;
+           height: 500px;
+           border: 5px solid red;  
+          }
+          .son{
+           position:absolute;
+           left: 50%;
+           top:50%;
+           margin-top: -150px;
+           margin-left: -100px;
+           width:200px;
+           height: 300px;
+           background-color: #ccc;
+          }
+          </style>
+    </head>
+    <body>
+      <div class="father">
+        <div class="son">hello world</div>
+      </div>
+    </body>
+    </html>
