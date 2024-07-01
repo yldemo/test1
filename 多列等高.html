@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .container{
+                display: flex;
+            }
+            .columns{
+                flex: 1;
+                padding: 10px;
+                background: lightblue;
+                margin: 5px;
+            }
+            .container2{
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+                gap:10px
+            }
+            .columns2{
+                padding: 10px;
+                background: lightblue;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+         <div class="columns">
+            <p>列1内容</p>
+            <p>更多内容</p>
+         </div>
+         <div class="columns">
+            <p>列2内容</p>
+            <p>更多内容</p>
+         </div>
+         <div class="columns">
+            <p>列3内容</p>
+            <p>更多内容</p>
+         </div>
+        </div>
+
+        <div class="container2">
+         <div class="columns2">
+            <p>列1内容</p>
+            <p>更多内容</p>
+         </div>
+         <div class="columns2">
+            <p>列2内容</p>
+            <p>更多内容</p>
+         </div>
+         <div class="columns2">
+            <p>列3内容</p>
+            <p>更多内容</p>
+         </div>
+        </div>
+
+    </body>
+</html>

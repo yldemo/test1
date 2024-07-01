@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>满屏品字布局</title>
+        <style>
+            body,html{
+                margin:0;
+                padding: 0;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+            .top{
+                width: 100%;
+                height: 30%;
+                background-color:lightgoldenrodyellow;
+            }
+            .main{
+                display: flex;
+                flex: 1;
+            }
+            .left{
+                width: 50%;
+                height: 100%;
+                float:left;
+                background-color: lightblue;
+            }
+            .right{
+                width: 50%;
+                height: 100%;
+                float:left;
+                background-color: lightgray;
+            }
+        </style>
+    </head>
+   <body>
+    <div class="top"></div>
+    <div class="main">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+   </body>
+</html>
